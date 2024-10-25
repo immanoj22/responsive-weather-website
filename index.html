@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether app</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <section>
+        <div id="image-overlay">
+            <div id="input">
+                <input type="text" placeholder="enter city name" id="cityname">
+                <button type="submit" onclick="getcity()"><img src="./images/search.png" > </button>
+            </div>
+        
+    
+            <div id="Wether" class="degree">
+                <img src="./images/rain.png" class="degre " id="Wether-image">
+                <div id="deg" class="degre">20°c</div>
+                <div id="name" class="degre">London</div>
+            </div>
+    
+            <div id="humidity" class="hum-wind">
+                <div id="humidityy">
+                    <img src="./images/humidity.png" >
+                    <div id="humidity-percentage" class="number">90%</div>
+                    <div id="hum-words" class="wordofwether" >Humidity</div>
+                </div>
+            </div>
+
+            <div id="Wind" class="-wind">
+                <div id="wind">
+                    <img src="./images/wind.png">
+                    <div id="wind-percentage" class="number">18 km/h</div>
+                    <div id="wind-words" class="wordofwether">Wind Speed</div>
+                </div>
+            </div>
+           
+        </div>
+
+
+    </section>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
